@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14.Mar.2013 16:19:56 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="domain.Kullanicigrup" table="kullanicigrup" schema="public">
+        <id name="kod" type="int">
+            <column name="kod" />
+            <generator class="assigned" />
+        </id>
+        <property name="tip" type="string">
+            <column name="tip" not-null="true" />
+        </property>
+      
+    </class>
+</hibernate-mapping>
